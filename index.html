@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="background">
+    <!-- navbar -->
+    <div class="navbar">
+    <nav class="navbar navbar-expand-lg  fixed-top">
+        <div class="container">
+             <a class="navbar-brand" href="#">
+                  <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+           <a class="navbar-brand fw-semibold" href="#">FrozChii</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">contact</a>
+              </li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+      <!-- carousel -->
+      <div id="=home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="https://images5.alphacoders.com/129/1294144.jpg" class="d-block w-100"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Kobo kanaeru</h5>
+            <p>vtuber</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="https://api.duniagames.co.id/api/content/upload/file/4848279641675327448.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="https://api.duniagames.co.id/api/content/upload/file/4848279641675327448.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+
+    <!-- project -->
+    
+    <div id="project" class="p-5 mb-5">
+        <h2 class="text-center mb-5">MY PROJECT</h2>
+        <div class="d-flex justify-content-evenly">
+        <div class="card" style="width: 18rem;">
+                <img src="servis sipil.jpg      " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Service.sipil</h5>
+                        <p class="card-text">Servi.sipil adalha servis komputer yang saya jalakan bersama tim saya</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+            </div>
+    
+        <div class="card" style="width: 18rem;">
+                <img src="css html.jpg"alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Html Css</h5>
+                        <p class="card-text">saya bisa menggunakan css dan html</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+            </div>
+    
+        <div class="card" style="width: 18rem;">
+                <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Bootsratp</h5>
+                        <p class="card-text">saya bisa menggunakan bootsrap</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div id="contact" class="mx-5 border mb-5">
+        <form class="container my-5">
+        <h3 class="text-center">Contact Me</h3>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Message</label>
+          <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <div class="text-center bt">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
